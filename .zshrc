@@ -7,7 +7,7 @@ export PATH="~/software/VSCode:$PATH"
 # flutter
 export PUB_HOSTED_URL=https://pub.flutter-io.cn
 export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
-export PATH="/home/mistymoon/software/flutter/bin:$PATH"
+export PATH="~/software/flutter/bin:$PATH"
 export ANDROID_HOME=/home/mistymoon/software/Android
 
 # nvm
@@ -60,10 +60,6 @@ POWERLEVEL9K_DIR_DEFAULT_FOREGROUND='black'
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=3
 POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
 
-# OS segment
-POWERLEVEL9K_OS_ICON_BACKGROUND='black'
-POWERLEVEL9K_LINUX_ICON='%F{cyan}\uf300 %F{white}MOON%f'
-
 # VCS icons
 POWERLEVEL9K_VCS_GIT_ICON=$'\uf1d3'
 POWERLEVEL9K_VCS_GIT_GITHUB_ICON=$'\uf113'
@@ -111,5 +107,5 @@ source $ZSH/oh-my-zsh.sh
 
 # Prompt elements
 
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator context dir_writable dir vcs) # 左侧显示内容
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=('status' root_indicator context dir_writable dir vcs) # 左侧显示内容
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(background_jobs time battery) # 右侧显示
