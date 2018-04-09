@@ -1,21 +1,20 @@
 # Enviroment variables
 export ZSH="$HOME/.oh-my-zsh"
 
-# path
-export PATH="~/software/VSCode:$PATH"
-
 # flutter
-export PUB_HOSTED_URL=https://pub.flutter-io.cn
-export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
-export PATH="~/software/flutter/bin:$PATH"
-export ANDROID_HOME=/home/mistymoon/software/Android
-
+#export PUB_HOSTED_URL=https://pub.flutter-io.cn
+#export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
+#export PATH="~/software/flutter/bin:$PATH"
+#export ANDROID_HOME=/home/mistymoon/software/Android
+# dart rust
+export PATH="/usr/lib/dart/bin:~/.cargo/bin/:$PATH"
+# node
+export PATH="$HOME/Software/nodejs/bin:$PATH"
+# autojump
+export PATH="$HOME/.autojump/bin:$PATH"
 # nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-
-# Syntax highlighting and tab completion
- source /home/mistymoon/software/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#export NVM_DIR="$HOME/.nvm"
+#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 
 # Font mode for powerlevel9k
@@ -102,7 +101,13 @@ ENABLE_CORRECTION="true"
 HIST_STAMPS="mm/dd/yyyy"
 
 # Plugins to load
-plugins=(git)
+plugins=(
+	git
+	autojump
+	history
+	zsh-syntax-highlighting
+	zsh-autosuggestions
+)
 source $ZSH/oh-my-zsh.sh
 
 # Prompt elements
