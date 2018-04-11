@@ -4,6 +4,7 @@ filetype plugin indent on  " 根据文件类型加载插件
 syntax on   “ 语法高亮
 set backspace   =indent,eol,start  " Make backspace work as you would expect.
 set hidden                 " Switch between buffers without having to save first.
+set nu  " 显示行号
 set laststatus  =2         " Always show statusline.
 set display     =lastline  " Show as much as possible of the last line.
 set autoindent " 自动缩进
