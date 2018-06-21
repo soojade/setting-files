@@ -2,20 +2,20 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 # flutter
-#export PUB_HOSTED_URL=https://pub.flutter-io.cn
-#export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
-#export PATH="~/software/flutter/bin:$PATH"
-#export ANDROID_HOME=/home/mistymoon/software/Android
+export PUB_HOSTED_URL=https://pub.flutter-io.cn
+export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
+export PATH="~/Software/flutter/bin:$PATH"
+export ANDROID_HOME=/home/mistymoon/software/Android
 #vscode
-export PATH="$HOME/Software/VSCode:$PATH"
+#export PATH="$HOME/Software/VSCode:$PATH"
 # dart rust node
 export PATH="/usr/lib/dart/bin:$HOME/.pub-cache/bin:$HOME/.cargo/bin/:$HOME/Software/nodejs/bin:$PATH"
 
 # autojump
-export PATH="$HOME/.autojump/bin:$PATH"
+#export PATH="$HOME/.autojump/bin:$PATH"
 # nvm
-#export NVM_DIR="$HOME/.nvm"
-#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # 字体 mode for powerlevel9k
 POWERLEVEL9K_MODE="nerdfont-complete"
@@ -103,7 +103,6 @@ HIST_STAMPS="mm/dd/yyyy"
 # Plugins to load
 plugins=(
 	git
-	autojump
 	history
 	zsh-syntax-highlighting
 	zsh-autosuggestions
