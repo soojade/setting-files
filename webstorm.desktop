@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Webstorm
+Comment=web development IDE
+GenericName=IDE
+Exec=/home/mistymoon/Software/WebStorm/bin/webstorm.sh
+Icon=/home/mistymoon/Software/WebStorm/bin/webstorm.png
+Type=Application
+StartupNotify=true
+Categories=Utility;Development;IDE;
+MimeType=text/plain;inode/directory;
+Actions=new-empty-window;
