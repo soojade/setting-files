@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0 
+Name=Firefox
+Comment=浏览器 
+Exec=env XDG_CURRENT_DESKTOP=GNOME /home/mistymoon/Software/firefox/firefox
+Icon=/home/mistymoon/Software/firefox/browser/chrome/icons/default/default64.png
+Terminal=false 
+Type=Application   
+Categories=Network;Utility;
