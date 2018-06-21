@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0 
+Name=XX-Net  
+Comment=科学上网 
+Exec=/home/mistymoon/Software/XX-Net/start
+Icon=/home/mistymoon/Software/XX-Net/xx.ico
+Terminal=false 
+Type=Application   
+Categories=Network;
