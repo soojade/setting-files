@@ -6,4 +6,4 @@ Exec=env XDG_CURRENT_DESKTOP=GNOME /home/mistymoon/Software/firefox/firefox
 Icon=/home/mistymoon/Software/firefox/browser/chrome/icons/default/default64.png
 Terminal=false 
 Type=Application   
-Categories=Network;Utility;
+Categories=Network;WebBrowser;
