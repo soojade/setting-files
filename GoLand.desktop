@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=GoLand
+Comment=golang development IDE
+GenericName=IDE
+Exec=/home/mistymoon/Software/GoLand/bin/goland.sh
+Icon=/home/mistymoon/Software/GoLand/bin/goland.png
+Type=Application
+StartupNotify=true
+Categories=Utility;Development;IDE;
+MimeType=text/plain;inode/directory;
+Actions=new-empty-window;
