@@ -1,7 +1,7 @@
 set nocompatible              " 这是必需的 
 " filetype off                  " 这是必需的 
 filetype plugin indent on  " 根据文件类型加载插件
-syntax on   “ 语法高亮
+syntax on   " 语法高亮
 set backspace   =indent,eol,start  " Make backspace work as you would expect.
 set hidden                 " Switch between buffers without having to save first.
 set nu  " 显示行号
