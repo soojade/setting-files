@@ -1,5 +1,3 @@
-# Copyright (C) 2017 Moldovan Cosmin <moldovancosmin69@gmail.com>
-
 # general settings
  title-text: "SELECT YOUR OPERATING SYSTEM"
  title-color: "#3ec6ae"
